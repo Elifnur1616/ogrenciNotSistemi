@@ -65,22 +65,18 @@ class VeriTabaniBaglantisi:
         self.ogrenciGetir()
 
 
-# --- Kullanım Örneği ---
 if __name__ == "__main__":
     veritabani = VeriTabaniBaglantisi("ogrenci_sistemi.db", "ogrenci")
 
-    # Örnek veriler ekleme
     veritabani.ogrenciEkleme("Ali", "Kaya", 80)
     veritabani.ogrenciEkleme("Ayşe", "Demir", 90)
     veritabani.ogrenciEkleme("Mehmet", "Yılmaz", 70)
 
-    # Listeleme
     Ogrenci.listeyiYazdir()
 
-    # Not güncelleme
     veritabani.notGuncelle(2, 95)
     Ogrenci.listeyiYazdir()
 
-    # Silme işlemi
+ 
     veritabani.ogrenciSil(1)
     Ogrenci.listeyiYazdir()
