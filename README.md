@@ -11,26 +11,15 @@ Bu proje, **Python** ve **SQLite** kullanarak öğrenci bilgilerini (ad, soyad, 
 - Verilerin **SQLite** veritabanında kalıcı olarak saklanması
 
  Kullanılan Teknolojiler
-- **Python 3**
-- **SQLite3**
-
- Kurulum ve Çalıştırma
-1. Bu projeyi bilgisayarına klonla:
-   ```bash
-   git clone https://github.com/KULLANICI_ADIN/ogrenci-not-sistemi.git
-   cd ogrenci-not-sistemi
-   ```
-2. Python dosyasını çalıştır:
-   ```bash
-   python ogrenci_not_sistemi.py
-   ```
+- Python 3
+- SQLite3
 
 Dosya Yapısı
 ```
    ogrenci-not-sistemi
- ├── ogrenci_not_sistemi.py  
- ├── README.md                
- └── .gitignore               
+ ogrenci_not_sistemi.py  
+ README.md                
+  .gitignore               
 ```
 
  Kullanım Örneği
